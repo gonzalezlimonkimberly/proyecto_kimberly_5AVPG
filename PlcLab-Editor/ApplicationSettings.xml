@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<PlcLabAppSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RecentFilesCollection />
+  <RecentFolderCollection />
+  <AvailableLanguages>
+    <string>Deutsch</string>
+    <string>English</string>
+  </AvailableLanguages>
+  <SelectedLanguage>English</SelectedLanguage>
+  <TiaVersionForPlcSim>TiaUniversal</TiaVersionForPlcSim>
+  <PlcSimMemoryFindIoAddressesTimeOutMsValue>40000</PlcSimMemoryFindIoAddressesTimeOutMsValue>
+  <PlcSimMemoryFindIoAddressesSpeedUpLevelV19>0</PlcSimMemoryFindIoAddressesSpeedUpLevelV19>
+</PlcLabAppSettings>

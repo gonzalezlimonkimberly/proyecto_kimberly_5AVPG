@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gonzalez Limon Kimberly</title>
+
+    <style>
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            min-height: 100vh;
+            background-color: rgb(223, 93, 73);
+            font-family: "Times New Roman", serif;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(174, 30, 8);
+            padding: 15px 30px;
+            box-sizing: border-box;
+        }
+
+        .logo-pequeno {
+            width: 50px;
+            height: auto;
+            display: block;
+        }
+
+        .barra-navegacion {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .boton-nav {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            background-color: rgb(222, 113, 113);
+            padding: 8px 16px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-family: Georgia, serif;
+            transition: background-color 0.3s;
+        }
+
+        .boton-nav:hover {
+            background-color: rgb(255, 51, 0);
+            color: white;
+        }
+
+        .boton-nav.activo {
+            background-color: rgb(255, 0, 0);
+            color: white;
+            font-weight: bold;
+        }
+
+        main {
+            display: flex;
+            gap: 30px;
+            padding: 30px;
+            box-sizing: border-box;
+            flex: 1;
+            width: 100%;
+        }
+
+        aside {
+            width: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        aside img {
+            width: 100%;
+            max-width: 350px;
+            height: 560px;
+            object-fit: cover;
+            display: block;
+            border-radius: 4px;
+        }
+
+        section {
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        article {
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.3);
+            padding: 25px;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        article img {
+            max-width: 100%;
+            height: 400px;
+            object-fit: cover;
+            display: block;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+
+        article h1 {
+            font-size: 32px;
+            margin-top: 10px;
+        }
+
+        article h2 {
+            font-size: 24px;
+        }
+
+        article p {
+            font-size: 17px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        footer {
+            background-color: rgb(241, 100, 72);
+            text-align: center;
+            padding: 15px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <div>
+
+            <h1 style="margin:0;">Proyecto PAEC</h1>
+
+            <nav class="barra-navegacion">
+
+                <a href="index.html" class="boton-nav activo">Inicio</a>
+
+                <a href="kimberly2.html" class="boton-nav">Bienestar animal</a>
+
+                <a href="kimberly3.html" class="boton-nav">Concientización</a>
+
+            </nav>
+
+        </div>
+
+        <img src="Imagenes/logo del primero.png"
+             alt="Logo del proyecto PAEC"
+             title="Logo del proyecto"
+             class="logo-pequeno">
+
+    </header>
+
+    <main>
+
+        <aside>
+
+            <img src="Imagenes/publicidad-5.jpg"
+                 alt="Imagen relacionada con el bienestar animal">
+
+        </aside>
+
+        <section>
+
+            <article>
+
+                <img src="Imagenes/Lucifer.png"
+                     alt="Imagen representativa del proyecto">
+
+                <h1>Bienvenidos a nuestro proyecto PAEC</h1>
+
+                <p>
+                    Este sitio web forma parte de nuestro proyecto PAEC y tiene como
+                    propósito promover la importancia del bienestar animal y fomentar
+                    una actitud de respeto, responsabilidad y cuidado hacia los animales.
+                </p>
+
+                <h2>Propósito del proyecto</h2>
+
+                <p>
+                    Nuestro proyecto busca crear conciencia sobre la importancia de
+                    brindar a los animales un trato digno, alimentación adecuada,
+                    atención, protección y un ambiente seguro. Los animales necesitan
+                    cuidados y respeto, ya que también son seres vivos que pueden sentir
+                    y necesitan condiciones adecuadas para vivir.
+                </p>
+
+                <h2>Mensaje de concientización</h2>
+
+                <p>
+                    Cuidar a los animales es responsabilidad de todos. Podemos contribuir
+                    a su bienestar mediante acciones sencillas como respetarlos, no
+                    maltratarlos, proporcionarles los cuidados necesarios y ayudar a
+                    aquellos que se encuentren en situación de abandono. Pequeñas
+                    acciones pueden generar cambios importantes en nuestra comunidad.
+                </p>
+
+                <p>
+                    <strong>
+                        ¡Los animales merecen respeto, cuidado y una vida digna!
+                    </strong>
+                </p>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>Gonzalez Limon Kimberly | Proyecto PAEC</p>
+
+    </footer>
+
+</body>
+
+</html>
+
